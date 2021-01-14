@@ -28,6 +28,12 @@
     padding: 5px 0;
 }
 
+.difficulty:active {
+    border: 4px solid orange;
+    background-color: rgb(134, 134, 255);
+    color: black;
+}
+
 #animals-box {
     display: flex;
     flex-direction: column;
@@ -42,6 +48,12 @@
     border-radius: 5px;
     cursor: pointer;
     padding: 5px 0;
+}
+
+.animal:active {
+    border: 4px solid rgb(8, 68, 8);
+    background-color: rgb(61, 218, 61);
+    color: black;
 }
 
 #grid-container {
